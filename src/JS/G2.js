@@ -1,6 +1,6 @@
 import React from "react";
 import '../CSS/G2.css';
-import '../mídia/exemplo.mp4';
+import '../mídia/animaçãoG2.mp4';
 
 function G2() {
     return (
@@ -16,7 +16,7 @@ function G2() {
             <div className="g2-content">
                 <div className="g2-video">
                     <video width="616" height="347" controls>
-                        <source src={require('../mídia/exemplo.mp4')} type="video/mp4" />
+                        <source src={require('../mídia/.mp4')} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
             <br></br>
